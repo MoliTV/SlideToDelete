@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BFD23BF180E8E020000ADE7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFD23BE180E8E020000ADE7 /* UIKit.framework */; };
+		0BFD23C1180E8E020000ADE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFD23C0180E8E020000ADE7 /* Foundation.framework */; };
+		0BFD23C3180E8E020000ADE7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BFD23C2180E8E020000ADE7 /* CoreGraphics.framework */; };
+		0BFD23C9180E8E020000ADE7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD23C7180E8E020000ADE7 /* InfoPlist.strings */; };
+		0BFD23CB180E8E020000ADE7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD23CA180E8E020000ADE7 /* main.m */; };
+		0BFD23CF180E8E020000ADE7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD23CE180E8E020000ADE7 /* AppDelegate.m */; };
+		0BFD23D1180E8E020000ADE7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD23D0180E8E020000ADE7 /* Default.png */; };
+		0BFD23D3180E8E020000ADE7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD23D2180E8E020000ADE7 /* Default@2x.png */; };
+		0BFD23D5180E8E020000ADE7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD23D4180E8E020000ADE7 /* Default-568h@2x.png */; };
+		0BFD23D8180E8E020000ADE7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BFD23D6180E8E020000ADE7 /* MainStoryboard.storyboard */; };
+		0BFD23E3180E8E490000ADE7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD23E2180E8E490000ADE7 /* ViewController.m */; };
+		0BFD23E6180E8E6A0000ADE7 /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BFD23E5180E8E6A0000ADE7 /* Cell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BFD23BB180E8E020000ADE7 /* SlideToDelete.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideToDelete.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BFD23BE180E8E020000ADE7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0BFD23C0180E8E020000ADE7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0BFD23C2180E8E020000ADE7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0BFD23C6180E8E020000ADE7 /* SlideToDelete-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideToDelete-Info.plist"; sourceTree = "<group>"; };
+		0BFD23C8180E8E020000ADE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0BFD23CA180E8E020000ADE7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0BFD23CC180E8E020000ADE7 /* SlideToDelete-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideToDelete-Prefix.pch"; sourceTree = "<group>"; };
+		0BFD23CD180E8E020000ADE7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0BFD23CE180E8E020000ADE7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0BFD23D0180E8E020000ADE7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		0BFD23D2180E8E020000ADE7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0BFD23D4180E8E020000ADE7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		0BFD23D7180E8E020000ADE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0BFD23E1180E8E490000ADE7 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0BFD23E2180E8E490000ADE7 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0BFD23E4180E8E6A0000ADE7 /* Cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
+		0BFD23E5180E8E6A0000ADE7 /* Cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BFD23B8180E8E020000ADE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFD23BF180E8E020000ADE7 /* UIKit.framework in Frameworks */,
+				0BFD23C1180E8E020000ADE7 /* Foundation.framework in Frameworks */,
+				0BFD23C3180E8E020000ADE7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BFD23B2180E8E020000ADE7 = {
+			isa = PBXGroup;
+			children = (
+				0BFD23C4180E8E020000ADE7 /* SlideToDelete */,
+				0BFD23BD180E8E020000ADE7 /* Frameworks */,
+				0BFD23BC180E8E020000ADE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BFD23BC180E8E020000ADE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD23BB180E8E020000ADE7 /* SlideToDelete.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BFD23BD180E8E020000ADE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD23BE180E8E020000ADE7 /* UIKit.framework */,
+				0BFD23C0180E8E020000ADE7 /* Foundation.framework */,
+				0BFD23C2180E8E020000ADE7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0BFD23C4180E8E020000ADE7 /* SlideToDelete */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD23CD180E8E020000ADE7 /* AppDelegate.h */,
+				0BFD23CE180E8E020000ADE7 /* AppDelegate.m */,
+				0BFD23D6180E8E020000ADE7 /* MainStoryboard.storyboard */,
+				0BFD23E1180E8E490000ADE7 /* ViewController.h */,
+				0BFD23E2180E8E490000ADE7 /* ViewController.m */,
+				0BFD23E4180E8E6A0000ADE7 /* Cell.h */,
+				0BFD23E5180E8E6A0000ADE7 /* Cell.m */,
+				0BFD23C5180E8E020000ADE7 /* Supporting Files */,
+			);
+			path = SlideToDelete;
+			sourceTree = "<group>";
+		};
+		0BFD23C5180E8E020000ADE7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BFD23C6180E8E020000ADE7 /* SlideToDelete-Info.plist */,
+				0BFD23C7180E8E020000ADE7 /* InfoPlist.strings */,
+				0BFD23CA180E8E020000ADE7 /* main.m */,
+				0BFD23CC180E8E020000ADE7 /* SlideToDelete-Prefix.pch */,
+				0BFD23D0180E8E020000ADE7 /* Default.png */,
+				0BFD23D2180E8E020000ADE7 /* Default@2x.png */,
+				0BFD23D4180E8E020000ADE7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BFD23BA180E8E020000ADE7 /* SlideToDelete */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BFD23DE180E8E020000ADE7 /* Build configuration list for PBXNativeTarget "SlideToDelete" */;
+			buildPhases = (
+				0BFD23B7180E8E020000ADE7 /* Sources */,
+				0BFD23B8180E8E020000ADE7 /* Frameworks */,
+				0BFD23B9180E8E020000ADE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlideToDelete;
+			productName = SlideToDelete;
+			productReference = 0BFD23BB180E8E020000ADE7 /* SlideToDelete.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BFD23B3180E8E020000ADE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = ibokan;
+			};
+			buildConfigurationList = 0BFD23B6180E8E020000ADE7 /* Build configuration list for PBXProject "SlideToDelete" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0BFD23B2180E8E020000ADE7;
+			productRefGroup = 0BFD23BC180E8E020000ADE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BFD23BA180E8E020000ADE7 /* SlideToDelete */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BFD23B9180E8E020000ADE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFD23C9180E8E020000ADE7 /* InfoPlist.strings in Resources */,
+				0BFD23D1180E8E020000ADE7 /* Default.png in Resources */,
+				0BFD23D3180E8E020000ADE7 /* Default@2x.png in Resources */,
+				0BFD23D5180E8E020000ADE7 /* Default-568h@2x.png in Resources */,
+				0BFD23D8180E8E020000ADE7 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BFD23B7180E8E020000ADE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BFD23CB180E8E020000ADE7 /* main.m in Sources */,
+				0BFD23CF180E8E020000ADE7 /* AppDelegate.m in Sources */,
+				0BFD23E3180E8E490000ADE7 /* ViewController.m in Sources */,
+				0BFD23E6180E8E6A0000ADE7 /* Cell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BFD23C7180E8E020000ADE7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BFD23C8180E8E020000ADE7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0BFD23D6180E8E020000ADE7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BFD23D7180E8E020000ADE7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BFD23DC180E8E020000ADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0BFD23DD180E8E020000ADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BFD23DF180E8E020000ADE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlideToDelete/SlideToDelete-Prefix.pch";
+				INFOPLIST_FILE = "SlideToDelete/SlideToDelete-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0BFD23E0180E8E020000ADE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SlideToDelete/SlideToDelete-Prefix.pch";
+				INFOPLIST_FILE = "SlideToDelete/SlideToDelete-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BFD23B6180E8E020000ADE7 /* Build configuration list for PBXProject "SlideToDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BFD23DC180E8E020000ADE7 /* Debug */,
+				0BFD23DD180E8E020000ADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BFD23DE180E8E020000ADE7 /* Build configuration list for PBXNativeTarget "SlideToDelete" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BFD23DF180E8E020000ADE7 /* Debug */,
+				0BFD23E0180E8E020000ADE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BFD23B3180E8E020000ADE7 /* Project object */;
+}
